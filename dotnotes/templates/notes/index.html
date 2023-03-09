@@ -1,0 +1,13 @@
+{%extends 'base.html'%}
+
+{%block content%}
+<ul>
+{%for n in notes%}
+<li>
+<p>{{n.name}}:</p>
+<p>content: {{n.content}}</p>
+<p>last edited: {{n.date_updated}}</p>
+</li>
+{%endfor%}
+</ul>
+{%endblock%}
