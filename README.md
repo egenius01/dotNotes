@@ -5,6 +5,7 @@ DotNotes is a RESTful API that allows you to create, retrieve, update, and delet
 ## Installation
 
 To use DotNotes, you'll need to have Python 3 and Django 3 installed on your system. Once you have those dependencies installed, you can follow these steps to get started:
+### Note: Make Sure you are running on a virtual environment before running pip install -r requirements, Gracias :sparkles: 
 
 1. Clone the repository: `git clone https://github.com/your-username/dotnotes.git`
 2. Install the requirements: `pip install -r requirements.txt`
