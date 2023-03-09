@@ -14,8 +14,7 @@ class Note(models.Model):
     content = models.TextField()
     date_created = models.DateTimeField(auto_now_add=True)
     date_updated = models.DateTimeField(auto_now=True)
-    image = models.URLField() #Images are only accepting urls for now
-    User = "Emmanuel"
+    image = models.URLField() 
 
 
     def __str__(self):
